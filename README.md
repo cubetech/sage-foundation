@@ -1,13 +1,13 @@
 # How to replace Bootstrap with [Foundation for Roots/Sage](https://github.com/roots/sage)
 
-## 1. Clone, clean and install
+### 1. Clone, clean and install
 
 * Clone repo: `git clone https://github.com/roots/sage.git`
 * Remove Bootstrap: `bower uninstall bootstrap-sass -S`
 * Install Foundation: `bower install foundation -S`
 * Install NPM packages: `npm install`
 
-## 2. Add Foundation overrides to `bower.json` like this:
+### 2. Add Foundation overrides to `bower.json` like this:
 
 ```
   "overrides": {
@@ -45,7 +45,7 @@
   }
 ```
 
-## 3. Comment out Bootstrap sass stuff in `assets/styles/main.scss`
+### 3. Comment out Bootstrap sass stuff in `assets/styles/main.scss`
 
-## 4. Replace dev url in `assets/manifest.json` and lastly run `gulp watch`
+### 4. Replace dev url in `assets/manifest.json` and lastly run `gulp watch`
 
